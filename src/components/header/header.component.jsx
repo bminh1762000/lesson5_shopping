@@ -1,9 +1,13 @@
-import React, {useState} from "react";
+import React from "react";
+import { connect } from "react-redux";
+import { createStructuredSelector } from "reselect";
 
 import { ReactComponent as Logo } from "../../assets/buy.svg";
 
-import CartIcon from '../cart-icon/cart-icon.component';
-import CartDropdown from '../cart-dropdown/cart-dropdown.component';
+import { selectHiddenCart } from "../../redux/cart/cart.selector";
+
+import CartIcon from "../cart-icon/cart-icon.component";
+import CartDropdown from "../cart-dropdown/cart-dropdown.component";
 
 import {
   HeaderContainer,
@@ -12,8 +16,7 @@ import {
   OptionLink,
 } from "./header.styles";
 
-const Header = () => {
-  const [hidden, setHidden] = useState(true);
+const Header = ({ hidden }) => {
   return (
     <HeaderContainer>
       <LogoContainer to="/">
@@ -24,11 +27,15 @@ const Header = () => {
         <OptionLink to="/shop">Shop</OptionLink>
         <OptionLink to="/contact">Contact</OptionLink>
         <OptionLink to="/sign-in">Sign in</OptionLink>
-        <CartIcon setCartHidden={() => setHidden(!hidden)} />
-        {hidden ? null : <CartDropdown/>}
+        <CartIcon />
+        {hidden ? null : <CartDropdown />}
       </OptionContainer>
     </HeaderContainer>
   );
 };
 
-export default Header;
+const mapStateToProps = createStructuredSelector({
+  hidden: selectHiddenCart,
+});
+
+export default connect(mapStateToProps)(Header);

@@ -9,7 +9,7 @@ const INITIAL_STATE = {
          title: "Ninja Silhouette",
          imgUrl:
            "http://sequex-dark.egemenerd.com/wp-content/uploads/2013/06/T_5_front.jpg",
-         price: 20.0,
+         price: 20,
          rating: 5,
        },
        {
@@ -17,7 +17,7 @@ const INITIAL_STATE = {
          title: "Patient Ninja",
          imgUrl:
            "http://sequex-dark.egemenerd.com/wp-content/uploads/2013/06/hoodie_3_front.jpg",
-         price: 35.0,
+         price: 35,
          rating: 5,
        },
        {
@@ -25,7 +25,7 @@ const INITIAL_STATE = {
          title: "Woo Ninja",
          imgUrl:
            "http://sequex-dark.egemenerd.com/wp-content/uploads/2013/06/hoodie_2_front.jpg",
-         price: 35.0,
+         price: 35,
          rating: 4,
        },
        {
@@ -33,7 +33,7 @@ const INITIAL_STATE = {
          title: "Premium Quality",
          imgUrl:
            "http://sequex-dark.egemenerd.com/wp-content/uploads/2013/06/T_2_front.jpg",
-         price: 37.0,
+         price: 37,
          rating: 5,
        },
      ],
@@ -48,7 +48,7 @@ const INITIAL_STATE = {
          title: "Ninja Silhouette",
          imgUrl:
            "http://sequex-dark.egemenerd.com/wp-content/uploads/2013/06/T_5_front.jpg",
-         price: 20.0,
+         price: 20,
          rating: 5,
        },
        {
@@ -56,7 +56,7 @@ const INITIAL_STATE = {
          title: "Patient Ninja",
          imgUrl:
            "http://sequex-dark.egemenerd.com/wp-content/uploads/2013/06/hoodie_3_front.jpg",
-         price: 35.0,
+         price: 35,
          rating: 5,
        },
        {
@@ -64,7 +64,7 @@ const INITIAL_STATE = {
          title: "Woo Ninja",
          imgUrl:
            "http://sequex-dark.egemenerd.com/wp-content/uploads/2013/06/hoodie_2_front.jpg",
-         price: 35.0,
+         price: 35,
          rating: 4,
        },
        {
@@ -72,7 +72,7 @@ const INITIAL_STATE = {
          title: "Premium Quality",
          imgUrl:
            "http://sequex-dark.egemenerd.com/wp-content/uploads/2013/06/T_2_front.jpg",
-         price: 37.0,
+         price: 37,
          rating: 5,
        },
      ],
@@ -87,7 +87,7 @@ const INITIAL_STATE = {
          title: "Ninja Silhouette",
          imgUrl:
            "http://sequex-dark.egemenerd.com/wp-content/uploads/2013/06/T_5_front.jpg",
-         price: 20.0,
+         price: 20,
          rating: 5,
        },
        {
@@ -95,7 +95,7 @@ const INITIAL_STATE = {
          title: "Patient Ninja",
          imgUrl:
            "http://sequex-dark.egemenerd.com/wp-content/uploads/2013/06/hoodie_3_front.jpg",
-         price: 35.0,
+         price: 35,
          rating: 5,
        },
        {
@@ -103,7 +103,7 @@ const INITIAL_STATE = {
          title: "Woo Ninja",
          imgUrl:
            "http://sequex-dark.egemenerd.com/wp-content/uploads/2013/06/hoodie_2_front.jpg",
-         price: 35.0,
+         price: 35,
          rating: 4,
        },
        {
@@ -111,7 +111,7 @@ const INITIAL_STATE = {
          title: "Premium Quality",
          imgUrl:
            "http://sequex-dark.egemenerd.com/wp-content/uploads/2013/06/T_2_front.jpg",
-         price: 37.0,
+         price: 37,
          rating: 5,
        },
      ],

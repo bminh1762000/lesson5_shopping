@@ -3,14 +3,12 @@ import styled from 'styled-components';
 export const ItemDropdownContainer = styled.div`
    display : flex;
    align-items : center;
-   padding : 1rem 2rem;
+   padding : 1rem 2.2rem;
+   justify-content : space-between;
+   text-algin : left;
 
    .title{
-      margin-right : 2rem;
-   }
-
-   .price{
-      margin-right : 2.5rem;
+      text-align : left;
    }
 
    .delete{
@@ -18,12 +16,12 @@ export const ItemDropdownContainer = styled.div`
       cursor : pointer;
    }
 
-   
 `
 
 export const ItemImageContainer = styled.div`
    background-image : ${({imageUrl}) => `url(${imageUrl})`};
-   background-position : center;
+   background-position : cover;
+   background-size : cover;
    width : 4em;
    height : 4rem;
 `

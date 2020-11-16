@@ -13,8 +13,8 @@ const CollectionPreview = ({ title, routeName, collection, history, match  }) =>
     <CollectionPreviewContainer>
       <CollectionTitle onClick={() => history.push(`${match.path}/${routeName}`)}>{title.toUpperCase()}</CollectionTitle>
       <CollectionContainer>
-        {collection.map(({ id, ...otherProps }) => (
-          <CartItem key={id} {...otherProps} />
+        {collection.map((item) => (
+          <CartItem key={item.id} item={item} />
         ))}
       </CollectionContainer>
     </CollectionPreviewContainer>

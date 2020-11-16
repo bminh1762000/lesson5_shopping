@@ -6,6 +6,8 @@ export const CartDropdownContainer = styled.div`
   top: 3rem;
   z-index: 99;
   background: #ecf0f1;
+  min-height : 200px;
+  width : 500px;
 
   &::after {
     content: " ";
@@ -18,3 +20,9 @@ export const CartDropdownContainer = styled.div`
     border-color: transparent transparent #ecf0f1 transparent;
   }
 `;
+
+export const  NoticeContainer = styled.p`
+  text-align : center;
+  color : #0984e3;
+  font-size : 1.25rem;
+`

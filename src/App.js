@@ -7,6 +7,7 @@ import ShopPage from "./page/shop/shop.component";
 import Header from './components/header/header.component'
 import HomePage from "./page/homepage/homepage.component";
 
+
 class App extends React.Component {
   render() {
     return (

@@ -1,0 +1,19 @@
+.App {
+  padding : 2rem 4rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+@media screen and (max-width : 800px){
+  .App{
+    padding : 0.5rem 1rem;
+  }
+}
